@@ -27,12 +27,12 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("images/store-lobby-1.jpg");
+  background-image: url("/images/store-lobby-1.jpg");
   min-height: 400px;
 }
 
 .bgimg-4 {
-  background-image: url("images/art-wall.jpg");
+  background-image: url("/images/art-wall.jpg");
   min-height: 400px;
 }
 
