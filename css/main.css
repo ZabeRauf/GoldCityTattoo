@@ -1,0 +1,165 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("/images/store-front-2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("/images/kaitsbae.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("/images/store-lobby-1.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("/images/art-wall.jpg");
+  min-height: 400px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.row {margin: 0 -5px;}
+
+.title-caption {
+  position: absolute;
+  left: 10;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: gold;
+  padding: 12px;
+  font: 25px "playball", sans-serif;
+  letter-spacing: 2px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font: 25px "Playball", sans-serif;
+  letter-spacing: 2px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* .left and .right are for columns with text alone */
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* .left-img and .right-img are for columns with images */
+.left-img {
+  width: 50%;
+}
+
+.right-img {
+  width: 50%;
+}
+
+.artist {
+  font: 25px "Playball", sans-serif;
+  letter-spacing: 2px;
+  color: gold;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Playball", sans-serif;
+  color: #111;
+}
+
+footer {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 20px 20px 20px;
+}
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* Turn off parallax scrolling for tablets and phones. */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+  }
+}
+
+/* Adds responsiveness to column text for tablets and phones. */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Adds responsiveness to about card and columns for cards. */
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 50%;
+    display: block;
+  }
+}
+
+
