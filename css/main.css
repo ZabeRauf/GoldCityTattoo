@@ -17,12 +17,12 @@ body, html {
 }
 
 .bgimg-1 {
-  background-image: url("images/store-front-2.jpg");
+  background-image: url("/images/store-front-2.jpg");
   min-height: 400px;
 }
 
 .bgimg-2 {
-  background-image: url("images/kaitsbae.jpg");
+  background-image: url("/images/kaitsbae.jpg");
   min-height: 400px;
 }
 
@@ -140,7 +140,7 @@ footer a:hover {
 }
 
 /* Turn off parallax scrolling for tablets and phones. */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
   }
@@ -154,12 +154,5 @@ footer a:hover {
   }
 }
 
-/* Adds responsiveness to about card and columns for cards. */
-@media screen and (max-width: 600px) {
-  .card-column {
-    width: 50%;
-    display: block;
-  }
-}
 
 
